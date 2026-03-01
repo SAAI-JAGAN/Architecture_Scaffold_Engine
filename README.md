@@ -1,71 +1,80 @@
-# backend-folder-gen README
+Backend Folder Structure Generator
 
-This is the README for your extension "backend-folder-gen". After writing up a brief description, we recommend including the following sections.
+Generate a production-ready clean backend architecture for Go (Gin framework) in seconds.
 
-## Features
+✨ Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Clean architecture folder structure
 
-For example if there is an image subfolder under your extension project workspace:
+Config-based setup
 
-\!\[feature X\]\(images/feature-x.png\)
+JWT authentication middleware
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+CORS middleware
 
-## Requirements
+SQL / MongoDB ready
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+Logger initialization
 
-## Extension Settings
+Template-based project generation
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+Production-ready structure
 
-For example:
+🛠 How To Use
 
-This extension contributes the following settings:
+Open VS Code
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+Press Ctrl + Shift + P
 
-## Known Issues
+Search:
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+Generate Clean Go Backend Structure
 
-## Release Notes
+Enter your project name
 
-Users appreciate release notes as you update your extension.
+Your backend structure will be generated automatically
 
-### 1.0.0
+📂 Generated Structure
+project-name/
+│
+├── cmd/
+├── internal/
+│   ├── config/
+│   ├── controller/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   ├── helpers/
+│
+├── go.mod
+├── main.go
+├── config.json
+🧠 Built For
 
-Initial release of ...
+Backend engineers
 
-### 1.0.1
+Go developers
 
-Fixed issue #.
+Clean architecture enthusiasts
 
-### 1.1.0
+Rapid API development
 
-Added features X, Y, and Z.
+🔐 JWT Authentication
 
----
+Authentication middleware reads secret from config.
 
-## Following extension guidelines
+No hardcoding.
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+Production ready.
 
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+🧩 Requirements
 
-## Working with Markdown
+Go installed
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+VS Code
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+Node.js (for extension)
 
-## For more information
+📌 Version
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+v0.0.1 – Initial Release

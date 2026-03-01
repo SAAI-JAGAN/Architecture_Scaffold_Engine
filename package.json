@@ -1,23 +1,30 @@
 {
   "name": "backend-folder-gen",
-  "displayName": "Backend-folderStructure-Generator",
+  "displayName": "Backend Folder Structure Generator",
   "description": "Generate clean backend architecture for Go (Gin)",
   "version": "0.0.1",
+  "publisher": "saai",
   "engines": {
     "vscode": "^1.109.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onCommand:backendArchGen.generateGoStructure"
+  ],
   "main": "./out/extension.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SAAI-JAGAN/Architecture_Scaffold_Engine/releases/tag/v1.0.0"
+  },
   "contributes": {
     "commands": [
       {
         "command": "backendArchGen.generateGoStructure",
         "title": "Generate Clean Go Backend Structure"
       }
-]
+    ]
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
